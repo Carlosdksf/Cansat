@@ -38,37 +38,44 @@ lo largo de toda la misión
 
 # Componentes 
 
-Sensor (BME280)
+- Sensor (BME280)
 
 Recoge datos de temperatura, Altitud a nivel del mar, humedad y presión atmosférica.
 
-Módulo GPS
+- Módulo GPS
 
 Permite saber la ubicación del CanSat en todo momento, proporcionando latitud y
 longitud, lo cual facilita su seguimiento y recuperación al aterrizar.
 
-Microcontrolador Principal (Arduino Nano)
+- Microcontrolador Principal (Arduino Nano)
 
 Es el "cerebro" del sistema. Se encarga de leer los sensores, activar el servomotor
 cuando se alcanza la altitud, y enviar los datos en tiempo real a una estación base.
 
-Módulo de comunicación Principal (NRF24L01 con antena)
+- Módulo de comunicación Principal (NRF24L01 con antena)
 
 Permite la transmisión inalámbrica del microcontrolador a la estación base. La
 antena ayuda a mantener una conexión estable durante el vuelo y la caída.
 
-Sistema de alimentación (Batería 9V/450 mAh)
+- Sistema de alimentación (Batería 9V/450 mAh)
 
 Proporciona energía eléctrica a todos los módulos. El regulador asegura que cada
 parte reciba el voltaje necesario sin sobrecargas.
 
-Servomotor de liberación de paracaídas
+- Servomotor de liberación de paracaídas
 
 Está programado para activar el despliegue del paracaídas justo cuando se
 alcanza la altura establecida. Este mecanismo permite que el CanSat descienda
 de forma controlada.
 
-Buzzer
+- Buzzer
+
 Una vez que el CanSat llega a cierta altura, el buzzer emite un sonido que ayuda a
 encontrarlo fácilmente, sobre todo si aterriza en un lugar con vegetación o poco
 visible.
+
+# Documentacion 
+
+Cansat.pdf
+
+Documentacion Final.pdf
